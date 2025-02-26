@@ -17,6 +17,12 @@
   <link rel="icon" href="/favicon.ico">
   <meta name="theme-color" content="#d9e7ff" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
@@ -24,7 +30,7 @@
 <body>
 
   <div class="page">
-    <header>
+    <header class="header">
       <nav class="nav header__nav">
         <ul class="header-links">
           <li class="list-item"><a class="link" href="#">Recetas</a></li>
@@ -33,7 +39,10 @@
         </ul>
       </nav>
       <div class="hero">
-        <div class="hero-title"></div>
+        <div class="hero-title">
+          <h1 class="title">Este es el título</h1>
+          <p>Descripción de esta asombrósa cafetería</p>
+        </div>
         <div class="hero-image"></div>
       </div>
       <div class="hero-footer">
@@ -42,10 +51,17 @@
       </div>
     </header>
 
-    <main>
-      <h1>Your content here!</h1>
+    <main class="content">
+      <section class="recipes"></section>
+      <section class="reservation"></section>
     </main>
-    <footer>
+    <footer id="footer" class="footer">
+      <div class="footer-circle">
+        <div class="footer-nav">
+          <div class="logo"></div>
+          <div class="social"></div>
+        </div>
+        <p class="sign"></p>
     </footer>
   </div>
 
