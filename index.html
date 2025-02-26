@@ -35,32 +35,33 @@
         <div class="logo-container">
           <img src="./images/logo_coffeeshop_dark.svg" alt="Logo de Café Contodo" class="nav__logo header__logo">
         </div>
-        <ul class="nav__links">
-          <li class="list-item"><a class="link nav__link" href="#recipes">Recetas</a></li>
-          <li class="list-item"><a class="link nav__link" href="#reservation">Reservar una mesa</a></li>
-          <li class="list-item"><a class="link nav__link" href="#">Contactos</a></li>
-        </ul>
-      </nav>
-      <div class="header__main">
-        <div class="header__content">
-          <h1 class="header__title"><span class="title header__span-accent">Café de especialidad</span> en Triple Peaks
-          </h1>
-          <p class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte
-            energía
-            y motivar tu
-            creatividad.</p>
+        <div class="nav__links-container">
+          <ul class="nav__links">
+            <li class="list-item"><a class="link nav__link" href="#recipes">Recetas</a></li>
+            <li class="list-item"><a class="link nav__link" href="#reservation">Reservar una mesa</a></li>
+            <li class="list-item"><a class="link nav__link" href="#">Contactos</a></li>
+          </ul>
         </div>
+      </nav>
+      <div class="header__content">
+        <h1 class="header__title"><span class="title header__span-accent">Café de especialidad</span> en Triple Peaks
+        </h1>
+        <p class="header__description">¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café para darte
+          energía
+          y motivar tu
+          creatividad.</p>
         <div class="header__image-container">
-          <img src="./images/inside_coffee_shop.png" alt="Una mirada a la cafetería" class="header__image">
+          <img src="./images/inside_coffee_shop.png" alt="Una mirada a la cafetería"
+            class="header__image header__image_position">
         </div>
       </div>
       <div class="header__footer">
         <div class="hero-times">
           <p class="open-hours">Horario:</p>
           <p class="open-hours">Lunes a Viernes (de 10:00h a 19:00h)</p>
-          <p class="open-hours">Sábados a Domingos (de 11:00h a 18:00h)</p>
+          <p class="open-hours">Sábados y Domingos (de 11:00h a 18:00h)</p>
         </div>
-        <div class="address">Avenida del Éxito 200. Ciudad Triple Peaks</div>
+        <div class="address">Avenida del Éxito 200, Ciudad Triple Peaks</div>
       </div>
     </header>
 
@@ -69,7 +70,28 @@
         <h2 class="recipes-title">Recetas</h2>
         <p class="recipes-subtitle">Echa un vistazo a las recetas que hemos reunido para que elabores tus propios
           snacks.</p>
-        <div class="embebed-container"></div>
+        <div class="embebed-container">
+          <article class="content__article">
+            <div class="video">
+              <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405"
+                src="https://www.youtube.com/embed/DXUAyRRkI6k" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="content__description">
+              <p class="video__name">Receta en Aeropress</p>
+              <p class="video__duration">~5 min</p>
+            </div>
+          </article>
+          <article class="content__article">
+            <div class="video">
+              <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405"
+                src="https://www.youtube.com/embed/DXUAyRRkI6k" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="content__description">
+              <p class="video__name">Receta en cafetera francesa</p>
+              <p class="video__duration">~15 min</p>
+            </div>
+          </article>
+        </div>
       </section>
       <section id="reservation" class="reservation">
         <h2 class="reservation-title">Reservar una mesa</h2>

@@ -46,7 +46,9 @@ html {
 .header {
   width: 100%;
   height: 100vh;
-  padding: 20 20 32 0;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 40px 80px;
   background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-position: center;
@@ -58,20 +60,37 @@ html {
 }
 
 .nav {
-
-}
-
-.header__nav {
   display: flex;
   justify-content: space-between;
 }
 
-.logo-container {}
+.header__nav {
+  position: relative;
+}
+
+.logo-container {
+  width: 105px;
+  height: 39px;
+  position: relative;
+}
 
 /* TODO: Generar desplazamiento izquierdo con POS: Relative al logo */
-.nav__logo {}
+.nav__logo {
+  width: 100%;
+  height: 100%;
+}
 
-.header__logo {}
+.header__logo {
+  position: absolute;
+  top: -10px;
+  left: -50px;
+}
+
+.nav__links-container {
+  position: absolute;
+  top: -10px;
+  right: 0px;
+}
 
 .nav__links {
   display: flex;
@@ -81,6 +100,8 @@ html {
 
 .list-item {
   list-style-type: none;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .nav__link {
@@ -88,52 +109,85 @@ html {
 }
 
 .link:link {
+  color: #000;
 }
 
 .link:visited {
+  color: #0A2850;
 }
 
 .link:focus {
+  color: #2f80ed;
 }
 
 .link:hover {
+  color: #2f80ed;
 }
 
 .link:active {
+  color: #6f6f6f;
 }
 
 .header__main {
-
+  display: flex;
+  justify-content: space-between;
 }
 
-.header__content {}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
 .header__title {
-  font-size: 64px;
-  line-height: 84px;
+  font-size: 58px;
+  line-height: 72px;
+  max-width: 709px;
+  margin-top: 0;
+  margin-bottom: 28px;
+  letter-spacing: -1px;
 }
 
 .header__span-accent {
+  font-family: "Noto-serif", "Times New Roman", serif;
   font-style: italic;
   color: #2f80ed;
   display: block;
-  font-weight: 300;
 }
 
-.header__description {}
+.header__description {
+  max-width: 683px;
+  font-family: "Noto-serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+}
 
 .header__image-container {
-  max-width: 50%;
-  position: relative;
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: -129px;
+  right: 5px;
 }
 
 /* TODO: Definir posición absoluta */
 .header__image {
   width: 100%;
-  position: absolute;
+  height: 100%;
 }
 
-.header__footer {}
+.header__image_position {
+  position: absolute;
+  right: -75px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: 500;
+  color: #838383;
+}
 
 .content {
   width: 100%;
