@@ -4,10 +4,6 @@
 	  --dark-primary: #0097A7;
 	  --light-primary: #B2EBF2;
 	  --white-main-text: #FFFFFF;
-	  --accent-purple: #7C4DFF;
-	  --primary-text: #212121;
-	  --secondary-text-grey: #757575;
-	  --divider-grey: #BDBDBD;
 
     /* Font Sizes */
     --fs-xl: 3.125rem;
@@ -20,10 +16,6 @@
     /* Font Family */
     --ffamily-primary: "Inter", Arial sans-serif;
     --ffamily-accent: "Noto Serif", "Times New Roman", serif;
-
-    /* Shadows */
-    --shadow-light: 0px 20px 25px 0px rgba(194, 194, 214, 0.3)
-    --shadow-dark: 0px 20px 25px 0px rgba(76, 76, 178, 0.2)
 }
 
 * {
