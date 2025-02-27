@@ -5,7 +5,6 @@
     --blue-back: #0A2850;
 	  --gray-light: #838383;
     --gray-dark: #6f6f6f;
-
 }
 
     /* Font Sizes */
@@ -185,6 +184,9 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.header__paragraph {
   font-weight: 500;
   color: #838383;
 }
@@ -267,11 +269,11 @@ html {
   justify-content: space-between;
 }
 
-.video-caption__name {
+.recipes__name {
 
 }
 
-.video-caption__duration {
+.recipes__duration {
 
 }
 
