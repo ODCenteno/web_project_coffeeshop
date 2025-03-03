@@ -265,7 +265,6 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space around;
   background-image: url(../images/background_reservation.svg);
   background-position: center;
   background-repeat: no-repeat;
