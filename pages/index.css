@@ -279,7 +279,7 @@ html {
   font-weight: 500;
   line-height: 52px;
   text-align: center;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 .form {
@@ -348,8 +348,9 @@ html {
   opacity: .7;
 }
 
-.checkbox__container {
+.form__checkbox-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 12px;
