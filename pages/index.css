@@ -252,16 +252,17 @@ html {
   justify-content: space-between;
 }
 
-.recipes__name {
+/* .recipes__name {
 
 }
 
 .recipes__duration {
 
-}
+} */
 
 .reservation {
   width: 100%;
+  padding: 100px 0 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -278,7 +279,7 @@ html {
   font-weight: 500;
   line-height: 52px;
   text-align: center;
-  margin: 100px 0 80px;
+  margin-bottom: 80px;
 }
 
 .form {
@@ -289,7 +290,7 @@ html {
 }
 
 .reservation__form {
-  margin: 0 auto 120px;
+  margin: 0 auto;
 }
 
 .form__fieldset {
