@@ -13,12 +13,20 @@
   flex-direction: column;
 }
 
+.header__nav {
+  position: relative;
+}
 
+.header__logo {
+  position: absolute;
+  top: -10px;
+  left: -50px;
+}
 
-.header__content {
+/* .header__content {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .header__title {
   font-size: 58px;
@@ -49,6 +57,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 0;
 }
 
 .header__footer {
@@ -56,18 +65,11 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-top: auto;
+  position: relative;
+  z-index: 1;
 }
 
 .header__paragraph {
   font-weight: 500;
   color: #838383;
-}
-
-.content {
-  width: 100%;
-}
-
-.page-content {
-  display: flex;
-  flex-direction: column;
 }
